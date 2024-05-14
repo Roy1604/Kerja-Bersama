@@ -11,7 +11,7 @@ public class CalculatorToko {
         double hargaSayuran=scanner.nextDouble();
         double subTotal=hargaBarang + hargaSayuran ;
  
-        double pajak =subTotal *0.1;
+        double pajak =subTotal *0.1000;
         double tips =subTotal * 0.010;
         double total=subTotal + pajak  + tips;
         
